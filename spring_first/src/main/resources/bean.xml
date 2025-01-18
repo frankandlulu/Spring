@@ -5,4 +5,14 @@
        <bean id="user" class="org.example.User">
 
        </bean>
+       <bean id="userdaoimp" class="org.example.bean.Userdaoimp">
+
+       </bean>
+       <bean id="book" class="org.example.DI.Book">
+              <constructor-arg name="bookname" value="国家与革命"/>
+              <constructor-arg name="author" value="列宁"/>
+              <property name="bookname" value="共产党宣言"></property>
+              <property name="author" value="马克思和恩格斯"></property>
+       </bean>
+
 </beans>
